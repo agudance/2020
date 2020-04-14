@@ -167,30 +167,81 @@ div#mainimage {
     left
 ========================================= */
 div#left {
+  float: left;
+}
+
+
+
+/* ========================================
+    activity
+========================================= */
+div#activity {
   width: 600px;
   height: auto;
   background-color: #FFF;
   margin-top: 20px;
-  float: left;
   box-shadow: 0 2px 7px rgba(83,78,61,0.3);
   padding: 10px;
 }
 
-div#left h2 {
+div#activity h2 {
   font-size: 22px;
   font-weight: bold;
   color: #000;
   border-left: 5px solid #015C31;
   padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
-div#left ul#update {
-  overflow: scroll;
+div#activity p {
+  font-size: 15px;
+  font-weight: normal;
+  color: #1C1C1C;
+  padding: 25px;
+}
+
+img#modern {
+  margin-left: 25px;
+}
+
+img#latin {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+
+
+/* ========================================
+    update
+========================================= */
+div#update {
   width: 600px;
-  height: 250px;
+  height: auto;
+  background-color: #FFF;
+  margin-top: 20px;
+  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
+  padding: 10px;
 }
 
-div#left ul#update li {
+div#update h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  border-left: 5px solid #015C31;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+div#update ul#update_table {
+  overflow: scroll;
+  width: 560px;
+  height: 150px;
+  padding: 20px;
+}
+
+div#update ul#update_table li {
   font-size: 15px;
   font-weight: normal;
   color: #1C1C1C;
@@ -198,7 +249,7 @@ div#left ul#update li {
   line-height: 40px;
 }
 
-div#left ul#update li span {
+div#update ul#update_table li span {
   font-size: 14px;
   font-weight: normal;
   color: #b5b3b3;
@@ -208,15 +259,140 @@ div#left ul#update li span {
 
 
 /* ========================================
+    sns
+========================================= */
+div#sns {
+  float: left;
+}
+
+
+
+/* ========================================
+    instagram
+========================================= */
+div#instagram {
+  width: 300px;
+  height: auto;
+  background-color: #FFF;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
+  padding: 10px;
+}
+
+div#instagram h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  border-left: 5px solid #015C31;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+div#instagram p {
+  font-size: 15px;
+  font-weight: normal;
+  color: #1C1C1C;
+  padding: 10px 25px;
+}
+
+#instagram_image {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+
+
+/* ========================================
     twitter
 ========================================= */
 div#twitter {
-  width: 320px;
-  height: 500px;
+  width: 300px;
+  height: auto;
   margin-top: 20px;
   margin-left: 20px;
-  float: left;
   box-shadow: 0 2px 7px rgba(83,78,61,0.3);
+  padding: 10px;
+  background-color: #FFF;
+}
+
+div#twitter h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  border-left: 5px solid #015C31;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+
+/* ========================================
+    line
+========================================= */
+div#line {
+  width: 300px;
+  height: auto;
+  background-color: #FFF;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
+  padding: 10px;
+}
+
+div#line h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  border-left: 5px solid #015C31;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+div#line p {
+  font-size: 15px;
+  font-weight: normal;
+  color: #1C1C1C;
+  padding: 10px 25px;
+}
+
+#line_image {
+  margin-left: 10px;
+}
+
+
+
+/* ========================================
+    youtube
+========================================= */
+div#youtube {
+  width: 300px;
+  height: auto;
+  background-color: #FFF;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
+  padding: 10px;
+}
+
+div#youtube h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  border-left: 5px solid #015C31;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+div#youtube p {
+  font-size: 15px;
+  font-weight: normal;
+  color: #1C1C1C;
+  padding: 10px 25px;
 }
 
 
@@ -236,6 +412,69 @@ footer p {
   color: #fff;
   text-align: center;
   line-height: 100px;
+}
+
+
+
+/* ========================================
+    event
+========================================= */
+div#event {
+  width: 900px;
+  height: auto;
+  background-color: #FAFAFA;
+  margin-top: 20px;
+  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
+  padding: 30px;
+}
+
+div#event h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  border-left: 5px solid #015C31;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+div#event p {
+  font-size: 15px;
+  font-weight: normal;
+  color: #1C1C1C;
+  padding: 25px;
+}
+
+div#attention {
+  width: 100%;
+  height: auto;
+  background-color: #FBEFEF;
+  border: 1px solid #B40404;
+  margin-bottom: 30px;
+}
+
+img#welcome_event {
+  margin-bottom: 20px;
+}
+
+img#aoyama_festival {
+  margin-bottom: 40px;
+}
+
+table#event_table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 20px;
+  font-weight: normal;
+  color: #1C1C1C;
+}
+
+table#event_table td {
+  padding: 10px 0;
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;
 }
 
 
@@ -274,7 +513,7 @@ div#member div#grade a {
   display: inline-block;
   font-size: 20px;
   text-decoration: none;
-  padding-left: 10px;
+  margin-left: 10px;
   margin-top: 15px;
 }
 
@@ -288,4 +527,79 @@ div#member div#introduce {
   height: auto;
   margin-left: 80px;
   float: left;
+}
+
+
+
+/* ========================================
+    competition
+========================================= */
+div#competition {
+  width: 900px;
+  height: auto;
+  background-color: #FAFAFA;
+  margin-top: 20px;
+  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
+  padding: 30px;
+}
+
+div#competition h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  border-left: 5px solid #015C31;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+table#competition_table {
+  width: 900px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 30px;
+  font-weight: normal;
+  color: #1C1C1C;
+}
+
+table#competition_table tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+table#competition_table td {
+  padding: 10px 0;
+  padding-left: 50px;
+  height: 30px;
+  line-height: 30px;
+}
+
+
+
+/* ========================================
+    contact
+========================================= */
+div#contact {
+  width: 900px;
+  height: auto;
+  background-color: #FAFAFA;
+  margin-top: 20px;
+  box-shadow: 0 2px 7px rgba(83,78,61,0.3);
+  padding: 30px;
+}
+
+div#contact h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  border-left: 5px solid #015C31;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+div#contact p {
+  font-size: 15px;
+  font-weight: normal;
+  color: #1C1C1C;
+  padding: 25px;
 }
